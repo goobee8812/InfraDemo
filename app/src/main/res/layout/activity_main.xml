@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skylandertech.www.infrademo.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <Button
+        android:id="@+id/button_play_sine_wave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        />
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        />
+    <Button
+        android:id="@+id/local_infra_ps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本机红外--松下"
+        />
+    <Button
+        android:id="@+id/local_infra_es"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本机红外--爱普森"
+        />
+    <Button
+        android:id="@+id/local_infra_at"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本机红外--光峰"
+        />
+    <Button
+        android:id="@+id/local_infra_dm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本机红外--DM907"
+        />
+
+</LinearLayout>
